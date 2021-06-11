@@ -22,7 +22,7 @@ int main() {
 		int x;
 		cin >> x;
 		// for every query, simply add the sum to itself while applying
-		// the modulo equationfor negative numbers
+		// the modulo equation for negative numbers
 		sum = (((long long) sum + sum % MOD) + MOD) % MOD;
 		// output the current sum for every query
 		cout << sum << '\n';
